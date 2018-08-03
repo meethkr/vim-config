@@ -15,3 +15,4 @@ set hlsearch
 set showmatch
 set laststatus=2
 set noshowmode
+let NERDTreeQuitOnOpen=1
