@@ -15,7 +15,7 @@ brew install macvim cmake go
 4. Copy paste this:
 
 ```
-cd ~ && git clone https://github.com/meethkr/vim-config.git .vim/ && cd .vim && git submodule update --init --recursive && ln -sf ~/.vim/vimrc ~/.vimrc cd ~
+cd ~ && git clone https://github.com/meethkr/vim-config.git .vim/ && cd .vim && git submodule update --init --recursive && ln -sf ~/.vim/vimrc ~/.vimrc && cd ~
 ```
 
 4. Install YouCompleteMe requirements
