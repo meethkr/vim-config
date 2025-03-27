@@ -3,8 +3,7 @@
 1. Remove any existing vimrc or .vim directories first
 
 ```
-rm -rf ~/.vim
-rm ~/.vimrc
+rm -rf ~/.vim && rm ~/.vimrc
 ```
 
 2. Install macvim and cmake if on mac
