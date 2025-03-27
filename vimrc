@@ -33,7 +33,7 @@ let NERDTreeQuitOnOpen=1
 "" Open nerdtree if no filename specified
 augroup nerdtree
   autocmd!
-  autocmd VimEnter * if argc() == 0 | NERDTree | wincmd w | endif
+  autocmd VimEnter * if argc() == 0 | NERDTree | endif
 augroup END
 
 "" Relative numbers in command mode, absolute in edit. No numbers in nerdtree
